@@ -1,0 +1,44 @@
+﻿  Component.cpp
+  Controller.cpp
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(22): warning C4305: '+=': truncation from 'double' to 'float'
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(25): warning C4305: '-=': truncation from 'double' to 'float'
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(28): warning C4305: '-=': truncation from 'double' to 'float'
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(31): warning C4305: '+=': truncation from 'double' to 'float'
+  Sprite.cpp
+d:\developer\opengl root\mygameengine\mygameengine\shaders\shader.h(119): warning C4305: 'argument': truncation from 'double' to 'float'
+  Transform.cpp
+  GameObject.cpp
+d:\developer\opengl root\mygameengine\mygameengine\shaders\shader.h(119): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameObjectManager.cpp
+d:\developer\opengl root\mygameengine\mygameengine\gameobject\gameobjectmanager.cpp(7): warning C4150: deletion of pointer to incomplete type 'GameObject'; no destructor called
+  d:\developer\opengl root\mygameengine\mygameengine\gameobject\gameobjectmanager.h(3): note: see declaration of 'GameObject'
+  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  d:\developer\opengl root\external resources\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+d:\developer\opengl root\mygameengine\mygameengine\shaders\shader.h(119): warning C4305: 'argument': truncation from 'double' to 'float'
+  FrameRateController.cpp
+  InputManager.cpp
+  ResourceManager.cpp
+  stb_image.cpp
+  Generating Code...
+  LineSegment2D.c
+  Math2D.c
+d:\developer\opengl root\mygameengine\mygameengine\libs\math2d.c(287): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\developer\opengl root\mygameengine\mygameengine\libs\math2d.c(268): warning C4101: 'startToCenterLength': unreferenced local variable
+  Matrix2D.c
+d:\developer\opengl root\mygameengine\mygameengine\libs\matrix2d.c(129): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Vector2D.c
+d:\developer\opengl root\mygameengine\mygameengine\libs\vector2d.c(131): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Sprite.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+Sprite.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Developer\OpenGL Root\MyGameEngine\Debug\vc120.pdb'; linking object as if no debug info
+  MyGameEngine.vcxproj -> D:\Developer\OpenGL Root\MyGameEngine\Debug\MyGameEngine.exe

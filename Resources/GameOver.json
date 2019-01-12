@@ -1,0 +1,9 @@
+{
+	"ID" : 0,
+	"Transform" : {
+		"Position" : { "x" : 0.0, "y" : 0.0 },
+		"Scale" : { "x" : 400.0,"y" : 100.0 },
+		"Angle" : 0.0
+	},
+	"Sprite" : { "fileName" : "gameOver.png" }
+}

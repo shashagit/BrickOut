@@ -1,0 +1,21 @@
+{
+	"ID" : 2,
+	"Transform" : {
+		"Position" : { "x" : 0.0, "y" : 0.0 },
+		"Scale" : { "x" : 60.0,"y" : 40.0 },
+		"Angle" : 0.0
+	},
+	"Brick" : true,
+	"Sprite" : { "fileName" : "brick.png"},
+	"Body" : {
+		"Mass" : 0.0,
+		"Shape" : {
+			"Name" : "AABB",
+			"Top" : 20.0,
+			"Bottom" : -20.0,
+			"Left" : -30.0,
+			"Right" : 30.0
+		}
+	}
+
+}

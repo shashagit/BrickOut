@@ -1,0 +1,21 @@
+{
+	"ID" : 3,
+	"Transform" : {
+		"Position" : { "x" : 0.0, "y" : 0.0 },
+		"Scale" : { "x" : 50.0,"y" : 20.0 },
+		"Angle" : 0.0
+	},
+	"Brick" : true,
+	"Sprite" : { "fileName" : "drop1.png"},
+	"Body" : {
+		"Mass" : 1.0,
+		"Shape" : {
+			"Name" : "AABB",
+			"Top" : 10.0,
+			"Bottom" : -10.0,
+			"Left" : -25.0,
+			"Right" : 25.0
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+{
+	
+	"Paddle" : {
+		"Position" : { "x" : 0.0, "y" : -320.0 }
+	},
+	"Levels" : ["BricksLevel1.json",
+				"BricksLevel2.json",
+				"BricksLevel3.json"],
+	"Paddle" : {
+		"Position" : { "x" : 0.0, "y" : 320.0 }
+	},
+	"Ball" : {
+		"Position" : { "x" : 0.0, "y" : -150.0 }
+	}
+
+}

@@ -1,0 +1,69 @@
+﻿  Component.cpp
+  Controller.cpp
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(22): warning C4305: '+=': truncation from 'double' to 'float'
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(25): warning C4305: '-=': truncation from 'double' to 'float'
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(28): warning C4305: '-=': truncation from 'double' to 'float'
+d:\developer\opengl root\mygameengine\mygameengine\components\controller.cpp(31): warning C4305: '+=': truncation from 'double' to 'float'
+  Sprite.cpp
+d:\developer\opengl root\mygameengine\mygameengine\shaders\shader.h(119): warning C4305: 'argument': truncation from 'double' to 'float'
+  Transform.cpp
+  GameObject.cpp
+d:\developer\opengl root\mygameengine\mygameengine\shaders\shader.h(119): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameObjectManager.cpp
+d:\developer\opengl root\mygameengine\mygameengine\gameobject\gameobjectmanager.cpp(7): warning C4150: deletion of pointer to incomplete type 'GameObject'; no destructor called
+  d:\developer\opengl root\mygameengine\mygameengine\gameobject\gameobjectmanager.h(3): note: see declaration of 'GameObject'
+  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  d:\developer\opengl root\external resources\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+d:\developer\opengl root\mygameengine\mygameengine\shaders\shader.h(119): warning C4305: 'argument': truncation from 'double' to 'float'
+  FrameRateController.cpp
+  InputManager.cpp
+  ResourceManager.cpp
+  stb_image.cpp
+  Generating Code...
+  LineSegment2D.c
+  Math2D.c
+d:\developer\opengl root\mygameengine\mygameengine\libs\math2d.c(287): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\developer\opengl root\mygameengine\mygameengine\libs\math2d.c(268): warning C4101: 'startToCenterLength': unreferenced local variable
+  Matrix2D.c
+d:\developer\opengl root\mygameengine\mygameengine\libs\matrix2d.c(129): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Vector2D.c
+d:\developer\opengl root\mygameengine\mygameengine\libs\vector2d.c(131): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Sprite.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+main.obj : error LNK2019: unresolved external symbol glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2001: unresolved external symbol __glewAttachShader
+main.obj : error LNK2001: unresolved external symbol __glewCompileShader
+main.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+main.obj : error LNK2001: unresolved external symbol __glewCreateShader
+main.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+main.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+main.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+main.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+main.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+main.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+main.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+main.obj : error LNK2001: unresolved external symbol __glewShaderSource
+main.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+main.obj : error LNK2001: unresolved external symbol __glewUseProgram
+main.obj : error LNK2001: unresolved external symbol glewExperimental
+FrameRateController.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "public: void __cdecl FrameRateController::FrameEnd(void)" (?FrameEnd@FrameRateController@@QEAAXXZ)
+InputManager.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "public: bool __cdecl InputManager::isPressed(unsigned int)" (?isPressed@InputManager@@QEAA_NI@Z)
+D:\Developer\OpenGL Root\MyGameEngine\\..\External Resources\GLFW\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Developer\OpenGL Root\MyGameEngine\\..\External Resources\GLEW\lib\Release\Win32\\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Developer\OpenGL Root\MyGameEngine\x64\Debug\MyGameEngine.exe : fatal error LNK1120: 34 unresolved externals

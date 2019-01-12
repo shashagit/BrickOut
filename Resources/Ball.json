@@ -1,0 +1,21 @@
+{
+	"ID" : 0,
+	"Transform" : {
+		"Position" : { "x" : 0.0, "y" : 0.0 },
+		"Scale" : { "x" : 18.0, "y" : 18.0 },
+		"Angle" : 0.0
+	},
+	"Sprite" : { "fileName" : "ball.png"},
+	"Body" : {
+		"Mass" : 0.0,
+		"Velocity" : {
+			"x" : 20.0,
+			"y" : -150.0
+		},
+		"Shape" : {
+			"Name" : "CIRCLE",
+			"Radius" : 9
+		}
+	}
+
+}

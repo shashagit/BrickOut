@@ -1,0 +1,22 @@
+{
+	"ID" : 5,
+	"Transform" : {
+		"Position" : { "x" : 0.0, "y" : 0.0 },
+		"Scale" : { "x" : 70.0,"y" : 60.0 },
+		"Angle" : 0.0
+	},
+	"Enemy" : true, 
+	"Brick" : true,
+	"Sprite" : { "fileName" : "enemy.png"},
+	"Body" : {
+		"Mass" : 0.0,
+		"Shape" : {
+			"Name" : "AABB",
+			"Top" : 30.0,
+			"Bottom" : -30.0,
+			"Left" : -35.0,
+			"Right" : 35.0
+		}
+	}
+
+}
